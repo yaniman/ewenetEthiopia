@@ -51,7 +51,7 @@
                 <div class="row ">
                     <div class="col text-center py-5">
     
-                        <h1 class=" text-white" >Articles</h1>
+                        <h1 class="text-white" >Articles</h1>
     
     
                     </div>
@@ -61,18 +61,18 @@
     </header>
 
 <div>
-    <div>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <div class="flex">
+        <button type="button"  data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <p>
-                < </p>
+                 Prev </p>
         </button>
-        <button type="button" class="flex float-right" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button type="button" class="d-flex float-right" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <p>
-                > </p>
+                Next </p>
         </button>
     </div>
 
-<div class="container mt-4" style="height: 300px; overflow-y: scroll;background-color: white;">
+<div class="container mt-4">
   
 
 
@@ -262,7 +262,7 @@
     </div>
     <br/>
    
-<footer id="main-fotter" class="bg-dark">
+<footer id="main-fotter" class="bg-dark text-white">
     <div class="container">
 
         <div class="row">
@@ -277,3 +277,7 @@
 </div>
 </body>
 </html>
+
+<script>
+    $('#year').text(new Date().getFullYear());
+</script>
